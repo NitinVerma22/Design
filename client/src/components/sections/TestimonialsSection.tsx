@@ -1,5 +1,11 @@
 import { Star } from "lucide-react";
 import type { Testimonial } from "@/types";
+import nidaImg from '@/images/testimonials/nida.png';
+import anandImg from '@/images/testimonials/anand.png';
+import ashmitImg from '@/images/testimonials/ashmit.png';
+import sanjayImg from '@/images/testimonials/sanjay.png';
+import arvindImg from '@/images/testimonials/arvind.png';
+import jitinImg from '@/images/testimonials/jitin.png';
 
 const testimonials: Testimonial[] = [
   {
@@ -8,7 +14,7 @@ const testimonials: Testimonial[] = [
     position: 'Managing Director',
     company: 'NQ Designs',
     content: 'DesignPro transformed our online presence completely. The new website increased our conversions by 300% and perfectly captures our brand identity. Their attention to detail and creative approach exceeded our expectations.',
-    avatar: '/src/images/testimonials/nida.png',
+    avatar: nidaImg,
     rating: 5
   },
   {
@@ -17,7 +23,7 @@ const testimonials: Testimonial[] = [
     position: 'Managing Partner',
     company: 'Anand & Co.',
     content: 'Working with DesignPro was a game-changer for our startup. They delivered a stunning website that perfectly represents our brand and helped us establish credibility in the market.',
-    avatar: '/src/images/testimonials/anand.png',
+    avatar: anandImg,
     rating: 5
   },                         
   {
@@ -26,7 +32,7 @@ const testimonials: Testimonial[] = [
     position: 'Owner',
     company: 'Gopal Hospital',
     content: 'The team at DesignPro is incredibly talented and professional. They took our vision and turned it into reality with a website that not only looks amazing but also performs exceptionally well.',
-    avatar: '/src/images/testimonials/ashmit.png',
+    avatar: ashmitImg,
     rating: 5
   },
   {
@@ -35,7 +41,7 @@ const testimonials: Testimonial[] = [
     position: 'Founder',
     company: 'The Wellness Point',
     content: 'DesignPro exceeded our expectations with their design and development services. Our new website is not only beautiful but also user-friendly and optimized for conversions. Highly recommend!',
-    avatar: '/src/images/testimonials/sanjay.png',
+    avatar: sanjayImg,
     rating: 5
   },
   {
@@ -44,7 +50,7 @@ const testimonials: Testimonial[] = [
     position: 'Marketing Head',
     company: 'Dairy Products Co.',
     content: 'Professional, creative, and delivered on time. Our new brand identity has received countless compliments from customers and partners. DesignPro truly understands design excellence.',
-    avatar: '/src/images/testimonials/arvind.png',      
+    avatar: arvindImg,      
     rating: 5
   },
   {
@@ -53,7 +59,7 @@ const testimonials: Testimonial[] = [
     position: 'Student',
     company: 'MBA',
 content:'DesignPro created my portfolio website . It’s sleek, modern, and showcases my work perfectly. The team was responsive and made the entire process smooth.',
-    avatar: '/src/images/testimonials/jitin.png',
+    avatar: jitinImg,
     rating: 5
   }
 ];
