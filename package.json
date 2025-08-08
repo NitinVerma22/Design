@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-"scripts": {
-  "client": "vite build",
-  "server": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-  "build": "npm run client && npm run server",
-  "dev": "cross-env NODE_ENV=development tsx server/index.ts"
-},
+  "scripts": {
+    "client": "vite build",
+    "server": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build": "npm run client && npm run server",
+    "dev": "cross-env NODE_ENV=development tsx server/index.ts"
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
@@ -46,6 +46,7 @@
     "cmdk": "^1.1.1",
     "connect-pg-simple": "^10.0.0",
     "date-fns": "^3.6.0",
+    "dotenv": "^17.2.1",
     "drizzle-orm": "^0.39.1",
     "drizzle-zod": "^0.7.0",
     "embla-carousel-react": "^8.6.0",
