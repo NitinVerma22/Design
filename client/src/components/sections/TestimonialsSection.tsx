@@ -5,7 +5,7 @@ import anandImg from '@/images/testimonials/anand.png';
 import ashmitImg from '@/images/testimonials/ashmit.png';
 import sanjayImg from '@/images/testimonials/sanjay.png';
 import arvindImg from '@/images/testimonials/arvind.png';
-import jitinImg from '@/images/testimonials/jitin.png';
+import jitinImg from '@/images/testimonials/Jitin.png';
 
 const testimonials: Testimonial[] = [
   {
